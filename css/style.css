@@ -1,0 +1,87 @@
+/******************* CSS Customizado *********************/
+
+
+/*********************************************************
+*                        Layout
+*********************************************************/
+.borda {
+	border-bottom: 5px solid #6e91ec;
+}
+
+.bg-escuro {
+	background: #000;
+}
+
+.bg-claro {
+	background-color: #f8f1e1;
+}
+/*********************************************************
+*                        Tipografia
+*********************************************************/
+
+
+
+/*********************************************************
+*                        Navegação
+*********************************************************/
+.navbar-dark .navbar-nav .nav-link {
+	color: #f8f1e1
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	background: #6e91ec;
+	border-radius: 5px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(110,145,236,0.5);
+}
+/*********************************************************
+*                        Conteúdo
+*********************************************************/
+.caixa-categoria {
+	margin-top: 30px;
+	margin-bottom: 30px;	
+	padding-top: 10px;
+	padding-bottom: 15px;
+	background-color: #f8f1e1;
+	border-radius: 10px;
+}
+.caixa-titulo {
+	background-color: #88abf0;
+	margin-top: 15px;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.caixa-subcategoria {
+	background-color: #000;
+	border-radius: 10px;
+	
+	
+}
+/*********************************************************
+*                        Footer
+*********************************************************/
+
+/*********************************************************
+*                        Media Queries
+*********************************************************/
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {} 
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
